@@ -5,7 +5,7 @@ export default function Top(){
         <div class = "sub">
             <button>Mudar o nome</button>
             <p>Seja bem vindo(a) ao site, !</p>
-            <ion-icon name="person-outline"></ion-icon>
+            <ion-icon class="icon" name="person"></ion-icon>
         </div>
     </div>
 

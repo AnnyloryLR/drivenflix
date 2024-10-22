@@ -4,7 +4,7 @@ import Content from './Content';
 
 export default function App(){
     return(
-        <div>
+        <div class="App">
             <Top />
             <div class="row">
                 <Menu />

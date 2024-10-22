@@ -1,9 +1,10 @@
 export default function Menu(){
     return(
     <ul class="side-menu">
-        <li><a href="#">Home</a></li> 
-        <li><a href="#">Favoritos</a></li> 
-        <li><a href="#">Contatos</a></li>
+        <a href="#">Meus vídeos</a>
+        <a href="#">Categorias</a>
+        <a href="#">Favoritos</a>
+        <a href="#">Adicionar</a>
      </ul>
 
     )
