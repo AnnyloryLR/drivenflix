@@ -1,13 +1,13 @@
 export default function Content(){
     return(    
     <ul class="content">
-        <li>Psycho</li>
-        <li>Rosemery's baby</li>
-        <li>Conjuring</li>
-        <li>Harry Potter and the Philosopher Stone</li>
-        <li>Girl interrupted</li>
-        <li>Lord of the Ring: the fellowship of the Ring</li>
-        <li>The Mummy</li>
-        <li>A Knight's tale</li>
+        <li><p>Psycho</p></li>
+        <li><p>Rosemery's baby</p></li>
+        <li><p>Conjuring</p></li>
+        <li><p>Harry Potter and the Philosopher Stone</p></li>
+        <li><p>Girl interrupted</p></li>
+        <li><p>Lord of the Ring: the fellowship of the Ring</p></li>
+        <li><p>The Mummy</p></li>
+        <li><p>A Knight's tale</p></li>
     </ul>)
 }
