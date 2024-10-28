@@ -4,9 +4,9 @@ import Content from './Content';
 
 export default function App(){
     return(
-        <div class="App">
+        <div className="App">
             <Top />
-            <div class="row">
+            <div className="row">
                 <Menu />
                 <Content /> 
             </div>            

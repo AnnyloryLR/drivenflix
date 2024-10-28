@@ -1,20 +1,22 @@
 export default function Menu(){
-    return(
-    <ul class="side-menu">
-        <MenuItem link="./home" image="" text="Meus vídeos" />
-        <MenuItem link="./categories" image="" text="Categorias" />
-        <MenuItem link="./favorites" image="" text="Favoritos" />
-        <MenuItem link="./added-videos" image="" text="Adicionar" />
-         
-     </ul>
+    let menuList = [{title: "Meus vídeos", link: "./home"},
+                {title: "Categorias", link: "./categories"},
+                {title: "Favoritos", link: "./favorites"},
+                 {title: "Adicionar", link: "./add-videos"}]
 
+    return(
+        <ul className="sideMenu">
+            {menuList.map((m, i) => <MenuItem link={m.link} image="" title={m.title} key={i} />)}
+        </ul>
+
+    
     )
 }
 
-function MenuItem(props){
+function MenuItem({link, title}){
     return(
         <li>
-            <a href={props.link}>{props.text}</a>
+            <a href={link}>{title}</a>
         </li>
 
     )     
